@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta-charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lebenslauf</title>
+</head>
+<body style="background-color: black;"></body>
+    <h1 style="color: rgb(243, 242, 242);font-size:60px;text-indent:100px;">Резюме Никитиной Е.Ю.</h1>
+    <br>
+    <p style="color: aliceblue; font-size:60px;text-indent:100px;">Я умею следующее:</p>
+    <hr>
+    <ul>
+        <li style="color:brown; font-size: 40px;">играть Баха</li>
+        <li style="color:orange; font-size: 40px;">критиковать чужие назначения</li>
+        <li style="color:yellow; font-size:40px ;">цитировать Спинозу</li>
+        <li style="color:green;font-size:40px ;">давать советы</li>
+        <li style="color:aqua;font-size: 40px;">тягать железки</li>
+    </ul>
+    <hr>
+    <p style="color: aliceblue;font-size:60px;text-indent:100px;">А так же:</p>    
+    <ol>
+        <li style="color:rgb(9, 35, 182); font-size: 40px;">создавать списки</li>
+        <li style="color:rgb(131, 5, 125); font-size: 40px;">менять цвета</li>
+        <li style="color:yellow; font-size:40px ;">любить Родину</li>
+        <li style="color:green;font-size:40px ;">уничтожать гематогены</li>
+        <li style="color:aqua;font-size: 40px;">говорить на трех языках</li>
+    </ol>
+    <hr>
+    <br>
+    <p style="color: aliceblue;font-size:60px;text-indent:100px;">Спасибо за внимание!</p>
+</body>
+
+</html>
