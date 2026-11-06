@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta-charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Запись на прием</title>
+    <link rel="stylesheet" href="style3KAT.css">
+</head>
+<body class="karkas">
+<h1 class="text-1">Запись на прием ко врачу</h1>
+<h2>Заполните форму для записи на прием</h2>
+<br>
+<form action="">
+ <p>Имя пациента: <input type="text" placeholder="Введите Ваше Имя"></p>
+ <p>Дата рождения: <input type="date" placeholder="дд.мм.гг"></p>
+ 
+<p>Пол:</p>
+<p><input type="checkbox" name=""  id="" >Мужской</p>
+<p><input type="checkbox" name=""  id="" >Женский</p>
+
+<p>Выберите врача:
+   <select name="" id="">
+<option value= "">терапевт</option> 
+<option value= "">кардиолог</option> 
+<option value= "">офтальмолог</option> 
+   </select>
+</p>
+
+<p>Опишите Ваши симптомы:</p>
+<br>
+<textarea class="pole" name="" id="" placeholder="Введите Ваши симптомы" ></textarea>
+<br>
+<br>
+<p><input type="checkbox" name=""  id="" >Cогласен с обработкой данных</p>
+<br>
+<button class="knop">Записаться</button>
+<p style="">&#128222Телефон справочной службы: +7 (999) 123-45-67</p>
+</form>
+</body>
+</html>
+
+
+######
+
+
+
+
+.text-1{
+font-size: 40px;
+color:rgb(39, 28, 7);
+font-weight: bold;
+text-decoration: underline;
+font-family: Helvetica;
+font-style: oblique;
+}
+
+
+
+
+.knop{
+     width: 30%;
+      padding: 0.9rem;
+      background: #2c0807;
+      color: white;
+      border: none;
+      border-radius: 20rem;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      margin-top: 0.2rem;
+    }
+
+
+.karkas{
+    font-family: Helvetica; font-size 20px;
+text-align: center;
+background-color: bisque;
+font-size: 20px;
+}
+
+.pole{
+    border-radius:20rem;
+}
